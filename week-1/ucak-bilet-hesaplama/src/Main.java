@@ -15,7 +15,7 @@ class Main {
         if (km>0&&yas>0){
             switch(tip){
                 case 1->{
-                    if (yas<12){
+                    if (yas<=12){
                         yasIndirim=normalTutar*0.5;
                         indirimTutar=normalTutar-yasIndirim;
                         System.out.println("Toplam Tutar: "+indirimTutar);
