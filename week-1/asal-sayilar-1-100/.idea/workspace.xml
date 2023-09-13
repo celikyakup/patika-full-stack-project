@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91339db7-58cf-421c-a757-567d34d7c171" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asal-sayilar-1-100.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../max-min-degerleri-bulma/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../max-min-degerleri-bulma/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../max-min-degerleri-bulma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../max-min-degerleri-bulma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../max-min-degerleri-bulma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../max-min-degerleri-bulma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taksimetre-hesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taksimetre-hesaplama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taksimetre-hesaplama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taksimetre-hesaplama/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2VIQojgzRFjSDK0khYApMTJtauk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yakupcelik/IdeaProjects/PatikaProject/week-1/asal-sayilar-1-100",
     "onboarding.tips.debug.path": "/Users/yakupcelik/IdeaProjects/week-1/asal-sayilar-1-100/src/Main.java"
   }
 }]]></component>
