@@ -1,16 +1,20 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        double [] arr= new double[5];
-        double sum=0;
         Scanner input=new Scanner(System.in);
+        System.out.print("Array uzunluğu kaç olacak:");
+        int n=input.nextInt();
+        double [] arr= new double[n];
+        double sum=0;
 
-        for (int i=0;i<arr.length;i++){
+        for (int i=0;i<n;i++){
             System.out.print("Sayıyı giriniz:");
             arr[i]= input.nextInt();
-            sum+=(1/(arr[i]));
+            for (double j=1;j<=arr[i];j++){
+                sum+=(1.0/j);
+            }
         }
         System.out.println(Arrays.toString(arr));
-        System.out.println(sum);
+        System.out.println("Harmonik ortalama:"+n/sum);
     }
 }
