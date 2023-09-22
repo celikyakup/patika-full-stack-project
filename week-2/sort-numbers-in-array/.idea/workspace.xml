@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f80ab66-9972-40d9-a89d-ee6fd2438119" name="Changes" comment="">
+    <list default="true" id="b212e7ba-268c-48b3-bbeb-44c545d27f9b" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create-B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort-numbers-in-array.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="2Vi5cMRkmBPsATlrG2ByiLJsrVw" />
+  <component name="ProjectId" id="2Vk8kmUkOCM7dkhBRjxlqRozbM8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,17 +32,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "/Users/yakupcelik/IdeaProjects/PatikaProject/week-2/create-B/src/Main.java"
+    "onboarding.tips.debug.path": "/Users/yakupcelik/IdeaProjects/PatikaProject/week-2/sort-numbers-in-array/src/Main.java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f80ab66-9972-40d9-a89d-ee6fd2438119" name="Changes" comment="" />
-      <created>1695306140062</created>
+      <changelist id="b212e7ba-268c-48b3-bbeb-44c545d27f9b" name="Changes" comment="" />
+      <created>1695368863644</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695306140062</updated>
+      <updated>1695368863644</updated>
     </task>
     <servers />
   </component>
