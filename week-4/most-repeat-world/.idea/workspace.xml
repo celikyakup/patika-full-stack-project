@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a2f0890-0822-4f00-97d9-b7b043c82dd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../week-1/ATM/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/ATM/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Aritmatik-islemler/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Aritmatik-islemler/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/EBOB-EKOK/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/EBOB-EKOK/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Fibonacci/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Fibonacci/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Hesap-makinesi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Hesap-makinesi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/bir-sayinin-basamak-sayilari-toplami/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/bir-sayinin-basamak-sayilari-toplami/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/burc-bulan-program/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/burc-bulan-program/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/cift-4-kati-olan-sayilar-toplami/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/cift-4-kati-olan-sayilar-toplami/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/girilen-deger-kadar-bolnen-sayilari-bulma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/girilen-deger-kadar-bolnen-sayilari-bulma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/harmonik-seriler/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/harmonik-seriler/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/kullanici-girisi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/kullanici-girisi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/ters-ucgen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/ters-ucgen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/tip-donusumleri/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/tip-donusumleri/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/yildiz-olusturma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/yildiz-olusturma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/create-B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/create-B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/desene-gore-metod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/desene-gore-metod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/duplicate-even-numbers-in-array/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/duplicate-even-numbers-in-array/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/ogrenci-bilgi-sistemi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/ogrenci-bilgi-sistemi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-order/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-order/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adventure-game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../adventure-game/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2Wc8y7JxZbS58rxPEZWLSh8DIS1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/yakupcelik/IdeaProjects/PatikaProject/week-4/most-repeat-world/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a2f0890-0822-4f00-97d9-b7b043c82dd9" name="Changes" comment="" />
+      <created>1697020760467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697020760467</updated>
+    </task>
+    <servers />
+  </component>
+</project>
