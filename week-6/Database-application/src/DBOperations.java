@@ -18,6 +18,9 @@ public class DBOperations {
                 System.out.print("\tSalary: "+data.getInt("employe_salary"));
                 System.out.println();
             }
+            data.close();
+            st.close();
+            connect.close();
         } catch (SQLException e) {
             System.out.println(e.getMessage());;
         }
