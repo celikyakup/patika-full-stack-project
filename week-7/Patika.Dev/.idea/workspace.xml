@@ -5,41 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d7b7e7-e082-4b72-a2ce-0c373605dc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patika.Dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Helper/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Helper/DBConnecter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Helper/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Helper/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Model/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Model/Educator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Model/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Model/Patika.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/AddQuizGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/AddQuizGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/EducatorGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/EducatorGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/LoginGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/LoginGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/OperatorGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/OperatorGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/StudentGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/StudentGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/UpdateContentGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/UpdateContentGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/UpdatePatikaGui.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patikadev/View/UpdatePatikaGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-j-8.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/ATM/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/ATM/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Aritmatik-islemler/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Aritmatik-islemler/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Daire-dilimi-alani-hesaplama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/EBOB-EKOK/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/EBOB-EKOK/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Fibonacci/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Fibonacci/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/Hesap-makinesi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/Hesap-makinesi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/asal-sayilar-1-100/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/bir-sayinin-basamak-sayilari-toplami/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/bir-sayinin-basamak-sayilari-toplami/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/burc-bulan-program/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/burc-bulan-program/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/cift-4-kati-olan-sayilar-toplami/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/cift-4-kati-olan-sayilar-toplami/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/girilen-deger-kadar-bolnen-sayilari-bulma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/girilen-deger-kadar-bolnen-sayilari-bulma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/harmonik-seriler/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/harmonik-seriler/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/kullanici-girisi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/kullanici-girisi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/max-min-degerleri-bulma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/taksimetre-hesaplama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/ters-ucgen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/ters-ucgen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/tip-donusumleri/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/tip-donusumleri/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-1/yildiz-olusturma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-1/yildiz-olusturma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/array-max-min/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/create-B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/create-B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/desene-gore-metod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/desene-gore-metod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/duplicate-even-numbers-in-array/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/duplicate-even-numbers-in-array/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/frequency-numbers-in-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/ogrenci-bilgi-sistemi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/ogrenci-bilgi-sistemi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/recursive-us-alma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/sort-numbers-in-array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/transpose-matrix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/adventure-game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/adventure-game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-5/PatikaStore/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-5/PatikaStore/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-5/create-fixture/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-5/create-fixture/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-5/create-fixture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-5/create-fixture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-5/most-repeat-word/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-5/most-repeat-word/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-6/notepad/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-6/notepad/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-6/read-num-file/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-6/read-num-file/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +63,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -65,21 +77,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/yakupcelik/IdeaProjects/PatikaProject/week-7/Patika.Dev/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yakupcelik/IdeaProjects/PatikaProject/week-7/Patika.Dev",
+    "onboarding.tips.debug.path": "/Users/yakupcelik/IdeaProjects/PatikaProject/week-7/Patika.Dev/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\week-7\Patika.Dev\src\com\patikadev\View" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\week-7\Patika.Dev\src\com\patikadev\View" />
+      <recent name="C:\Users\user\Desktop\week-7\Patika.Dev\src\com\patikadev\View\StudentContentGUI" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/com/patikadev" />
     </key>
@@ -124,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateContentGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.patikadev.View.UpdateContentGUI" />
+    <configuration name="StudentGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patikadev.View.StudentGUI" />
       <module name="Patika.Dev" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdatePatikaGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.patikadev.View.UpdatePatikaGui" />
+    <configuration name="UpdateContentGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patikadev.View.UpdateContentGUI" />
       <module name="Patika.Dev" />
       <extension name="coverage">
         <pattern>
@@ -153,10 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LoginGUI" />
+        <item itemvalue="Application.StudentGUI" />
         <item itemvalue="Application.EducatorGUI" />
         <item itemvalue="Application.UpdateContentGUI" />
         <item itemvalue="Application.OperatorGUI" />
-        <item itemvalue="Application.UpdatePatikaGui" />
       </list>
     </recent_temporary>
   </component>

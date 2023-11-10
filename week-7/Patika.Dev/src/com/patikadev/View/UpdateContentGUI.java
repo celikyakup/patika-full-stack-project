@@ -27,13 +27,12 @@ public class UpdateContentGUI extends JFrame {
         fld_update_content_name.setText(content.getName());
         fld_update_content_explanation.setText(content.getExplanation());
         fld_update_content_link.setText(content.getYoutube_link());
-        fld_update_content_quiz.setText(content.getQuiz());
 
         btn_content_update.addActionListener(e -> {
-            if (Helper.isFieldEmpty(fld_update_content_name) || Helper.isFieldEmpty(fld_update_content_explanation) || Helper.isFieldEmpty(fld_update_content_link) || Helper.isFieldEmpty(fld_update_content_quiz)) {
+            if (Helper.isFieldEmpty(fld_update_content_name) || Helper.isFieldEmpty(fld_update_content_explanation) || Helper.isFieldEmpty(fld_update_content_link)) {
                 Helper.showMsg("fill");
             } else {
-                if (Content.update(content.getId(), fld_update_content_name.getText(), fld_update_content_explanation.getText(), fld_update_content_link.getText(), fld_update_content_quiz.getText())) {
+                if (Content.update(content.getId(), fld_update_content_name.getText(), fld_update_content_explanation.getText(), fld_update_content_link.getText())) {
                     Helper.showMsg("done");
 
                 }

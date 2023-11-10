@@ -19,7 +19,7 @@ public class Content {
     private String lesson_name;
     private Course contentCourse;
     private Course contentLessonName;
-
+    private Quiz quizQuestion;
     public Course getContentLessonName() {
         return contentLessonName;
     }
@@ -29,16 +29,24 @@ public class Content {
     }
     public Content(){}
 
-    public Content(int id, int course_id, String name, String explanation, String youtube_link, String quiz, String lesson_name) {
+    public Quiz getQuizQuestion() {
+        return quizQuestion;
+    }
+
+    public void setQuizQuestion(Quiz quizQuestion) {
+        this.quizQuestion = quizQuestion;
+    }
+
+    public Content(int id, int course_id, String name, String explanation, String youtube_link, String lesson_name) {
         this.id=id;
         this.course_id=course_id;
         this.contentCourse= Course.getFetch(course_id);
         this.name = name;
         this.explanation = explanation;
         this.youtube_link = youtube_link;
-        this.quiz = quiz;
         this.lesson_name = lesson_name;
         this.contentLessonName=Course.getFetchByName(lesson_name);
+
     }
 
     public int getId() {
@@ -81,13 +89,6 @@ public class Content {
         this.youtube_link = youtube_link;
     }
 
-    public String getQuiz() {
-        return quiz;
-    }
-
-    public void setQuiz(String quiz) {
-        this.quiz = quiz;
-    }
 
     public String getLesson_name() {
         return lesson_name;
@@ -111,7 +112,7 @@ public class Content {
             Statement st= DBConnecter.getInstance().createStatement();
             ResultSet rs=st.executeQuery("select * from content");
             while (rs.next()){
-                obj=new Content(rs.getInt("id"),rs.getInt("course_id"),rs.getString("name"),rs.getString("explanation"),rs.getString("youtube_link"),rs.getString("quiz"),rs.getString("lesson_name"));
+                obj=new Content(rs.getInt("id"),rs.getInt("course_id"),rs.getString("name"),rs.getString("explanation"),rs.getString("youtube_link"),rs.getString("lesson_name"));
                 contentList.add(obj);
             }
         } catch (SQLException e) {
@@ -119,8 +120,76 @@ public class Content {
         }
         return contentList;
     }
-    public static boolean add(String name,int course_id,String explanation,String youtube_link,String quiz,String lesson_name){
-        String query="INSERT INTO content (name,course_id,explanation,youtube_link,quiz,lesson_name ) VALUES (?,?,?,?,?,?) ";
+    public static ArrayList<Content> getList(int user_id){
+        ArrayList<Content> contentList=new ArrayList<>();
+        Content obj;
+        try {
+            Statement st= DBConnecter.getInstance().createStatement();
+            ResultSet rs=st.executeQuery("SELECT * FROM content WHERE user_id= "+user_id);
+            while (rs.next()){
+                obj=new Content();
+                obj.setId(rs.getInt("id"));
+                obj.setCourse_id(rs.getInt("course_id"));
+                obj.setName(rs.getString("name"));
+                obj.setExplanation(rs.getString("explanation"));
+                obj.setYoutube_link(rs.getString("youtube_link"));
+               obj.setLesson_name(rs.getString("lesson_name"));
+                contentList.add(obj);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return contentList;
+    }
+
+    public static ArrayList<Content> getListByID(int id){
+        ArrayList<Content> contentList=new ArrayList<>();
+        Content obj;
+        try {
+            Statement st= DBConnecter.getInstance().createStatement();
+            ResultSet rs=st.executeQuery("SELECT * FROM content WHERE id= "+id);
+            while (rs.next()){
+                obj=new Content();
+                obj.setId(rs.getInt("id"));
+                obj.setCourse_id(rs.getInt("course_id"));
+                obj.setName(rs.getString("name"));
+                obj.setExplanation(rs.getString("explanation"));
+                obj.setYoutube_link(rs.getString("youtube_link"));
+                obj.setLesson_name(rs.getString("lesson_name"));
+                contentList.add(obj);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return contentList;
+    }
+    public static ArrayList<Content> getListByCourseID(int course_id){
+        ArrayList<Content> contentList=new ArrayList<>();
+        Content obj;
+        try {
+            Statement st= DBConnecter.getInstance().createStatement();
+            ResultSet rs=st.executeQuery("SELECT * FROM content WHERE course_id= "+course_id);
+            while (rs.next()){
+                obj=new Content();
+                obj.setId(rs.getInt("id"));
+                obj.setCourse_id(rs.getInt("course_id"));
+                obj.setName(rs.getString("name"));
+                obj.setExplanation(rs.getString("explanation"));
+                obj.setYoutube_link(rs.getString("youtube_link"));
+                obj.setLesson_name(rs.getString("lesson_name"));
+                contentList.add(obj);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return contentList;
+    }
+
+    public static boolean add(String name,int course_id,String explanation,String youtube_link,String lesson_name){
+        String query="INSERT INTO content (name,course_id,explanation,youtube_link,lesson_name ) VALUES (?,?,?,?,?) ";
         boolean key=true;
         try {
             PreparedStatement pr=DBConnecter.getInstance().prepareStatement(query);
@@ -128,24 +197,22 @@ public class Content {
             pr.setInt(2,course_id);
             pr.setString(3,explanation);
             pr.setString(4,youtube_link);
-            pr.setString(5,quiz);
-            pr.setString(6,lesson_name);
+            pr.setString(5,lesson_name);
             key=pr.executeUpdate()!=-1;
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
         return key;
     }
-    public static boolean update(int id,String name,String explanation,String youtube_link,String quiz){
-        String query="UPDATE content SET name=?,explanation=?,youtube_link=?,quiz=? WHERE id=? ";
+    public static boolean update(int id,String name,String explanation,String youtube_link){
+        String query="UPDATE content SET name=?,explanation=?,youtube_link=? WHERE id=? ";
         boolean key=true;
         try {
             PreparedStatement pr=DBConnecter.getInstance().prepareStatement(query);
             pr.setString(1,name);
             pr.setString(2,explanation);
             pr.setString(3,youtube_link);
-            pr.setString(4,quiz);
-            pr.setInt(5,id);
+            pr.setInt(4,id);
             key=pr.executeUpdate()!=-1;
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -166,7 +233,48 @@ public class Content {
                 obj.setName(rs.getString("name"));
                 obj.setExplanation(rs.getString("explanation"));
                 obj.setYoutube_link(rs.getString("youtube_link"));
-                obj.setQuiz(rs.getString("quiz"));
+                obj.setLesson_name(rs.getString("lesson_name"));
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return obj;
+    }
+    public static Content getFetch(String name){
+        Content obj=null;
+        String sql="SELECT * FROM content WHERE name=?";
+        try {
+            PreparedStatement pr=DBConnecter.getInstance().prepareStatement(sql);
+            pr.setString(1,name);
+            ResultSet rs=pr.executeQuery();
+            if (rs.next()){
+                obj=new Content();
+                obj.setId(rs.getInt("id"));
+                obj.setCourse_id(rs.getInt("course_id"));
+                obj.setName(rs.getString("name"));
+                obj.setExplanation(rs.getString("explanation"));
+                obj.setYoutube_link(rs.getString("youtube_link"));
+                obj.setLesson_name(rs.getString("lesson_name"));
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return obj;
+    }
+    public static Content getFetchbyQuiz(String quiz){
+        Content obj=null;
+        String sql="SELECT * FROM content WHERE quiz=?";
+        try {
+            PreparedStatement pr=DBConnecter.getInstance().prepareStatement(sql);
+            pr.setString(1,quiz);
+            ResultSet rs=pr.executeQuery();
+            if (rs.next()){
+                obj=new Content();
+                obj.setId(rs.getInt("id"));
+                obj.setCourse_id(rs.getInt("course_id"));
+                obj.setName(rs.getString("name"));
+                obj.setExplanation(rs.getString("explanation"));
+                obj.setYoutube_link(rs.getString("youtube_link"));
                 obj.setLesson_name(rs.getString("lesson_name"));
             }
         } catch (SQLException e) {
@@ -186,19 +294,7 @@ public class Content {
         }
         return key;
     }
-    public static boolean quizAdd(String quiz){
-        String query="INSERT INTO content quiz VALUES ? ";
-        boolean key=true;
-        try {
-            PreparedStatement pr=DBConnecter.getInstance().prepareStatement(query);
 
-            pr.setString(1,quiz);
-            key=pr.executeUpdate()!=-1;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-        return key;
-    }
     public static ArrayList<Content> searchList(String query){
         ArrayList <Content> contentList=new ArrayList<>();
         Content obj;
@@ -206,7 +302,7 @@ public class Content {
             Statement st= DBConnecter.getInstance().createStatement();
             ResultSet rs=st.executeQuery(query);
             while (rs.next()){
-                obj=new Content(rs.getInt("id"),rs.getInt("course_id"),rs.getString("name"),rs.getString("explanation"),rs.getString("youtube_link"),rs.getString("quiz"),rs.getString("lesson_name"));
+                obj=new Content(rs.getInt("id"),rs.getInt("course_id"),rs.getString("name"),rs.getString("explanation"),rs.getString("youtube_link"),rs.getString("lesson_name"));
                 contentList.add(obj);
             }
         } catch (SQLException e) {

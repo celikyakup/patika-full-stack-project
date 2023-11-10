@@ -146,7 +146,7 @@ public class Course {
                 int patika_id=rs.getInt("patika_id");
                 String name=rs.getString("name");
                 String language=rs.getString("language");
-                obj=new Course(id,user_id,patika_id,name,language);
+                obj=new Course(id,userID,patika_id,name,language);
                 courseList.add(obj);
             }
         } catch (SQLException e) {
@@ -155,6 +155,29 @@ public class Course {
 
         return courseList;
     }
+
+    public static ArrayList<Course> getListByPatikaID(int patika_id){
+        ArrayList<Course> courseList=new ArrayList<>();
+        Course obj;
+        try {
+            Statement st= DBConnecter.getInstance().createStatement();
+            ResultSet rs=st.executeQuery("SELECT * FROM course WHERE patika_id= "+patika_id);
+            while (rs.next()){
+                int id=rs.getInt("id");
+                int userID=rs.getInt("user_id");
+                int patikaID=rs.getInt("patika_id");
+                String name=rs.getString("name");
+                String language=rs.getString("language");
+                obj=new Course(id,userID,patikaID,name,language);
+                courseList.add(obj);
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return courseList;
+    }
+
     public static boolean add(int user_id,int patika_id,String name,String language){
         String query="INSERT INTO course (user_id, patika_id,name,language ) VALUES (?,?,?,?) ";
         boolean key=true;

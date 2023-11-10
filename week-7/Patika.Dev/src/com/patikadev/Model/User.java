@@ -180,8 +180,12 @@ public class User {
         boolean key=true;
         String query="DELETE FROM user WHERE id=?";
         ArrayList<Course> courseList=Course.getListByUser(id);
+        ArrayList<Content> contentList=Content.getList(id);
         for (Course c:courseList){
             Course.delete(c.getId());
+        }
+        for (Content con:contentList){
+            Content.delete(con.getContentCourse().getUser_id());
         }
         try {
             PreparedStatement pr=DBConnecter.getInstance().prepareStatement(query);
@@ -235,7 +239,7 @@ public class User {
         return userList;
     }
     public static String searchQuery(String name,String uname,String type){
-        String query="SELECT * FROM user WHERE uname LIKE '%{{uname}}%' and uname LIKE '%{{name}}%'";
+        String query="SELECT * FROM user WHERE uname LIKE '%{{uname}}%' and name LIKE '%{{name}}%'";
         query=query.replace("{{uname}}",uname);
         query=query.replace("{{name}}",name);
         if (!type.isEmpty()){
@@ -243,5 +247,20 @@ public class User {
             query=query.replace("{{type}}",type);
         }
         return query;
+    }
+    public static int getPatikaID(String patikaName){
+        String query = "SELECT id FROM patika WHERE name = ?";
+        int id = 0;
+        try {
+            PreparedStatement pr = DBConnecter.getInstance().prepareStatement(query);
+            pr.setString(1,patikaName);
+            ResultSet rs = pr.executeQuery();
+            while (rs.next()){
+                id = rs.getInt("id");
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return id;
     }
 }

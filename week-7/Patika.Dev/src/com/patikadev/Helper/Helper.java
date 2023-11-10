@@ -33,6 +33,9 @@ public class Helper {
     public static boolean isFieldEmpty(JTextField field){
         return field.getText().trim().isEmpty();
     }
+    public static boolean isFieldArea(JTextArea area){
+        return area.getText().trim().isEmpty();
+    }
     public static void showMsg(String str){
         optionPageTR();
         String msg;

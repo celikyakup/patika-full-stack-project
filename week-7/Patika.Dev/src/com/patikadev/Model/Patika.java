@@ -88,6 +88,21 @@ public class Patika {
         }
         return obj;
     }
+    public static Patika getFetch(String  name){
+        Patika obj=null;
+        String sql="SELECT * FROM patika WHERE name=? ";
+        try {
+            PreparedStatement pr=DBConnecter.getInstance().prepareStatement(sql);
+            pr.setString(1,name);
+            ResultSet rs=pr.executeQuery();
+            if (rs.next()){
+                obj=new Patika(rs.getInt("id"),rs.getString("name"));
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return obj;
+    }
     public static boolean delete(int id){
         String query="DELETE FROM patika WHERE id=?";
         boolean key=true;
