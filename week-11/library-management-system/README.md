@@ -13,19 +13,19 @@ Data added according to relationships between entities.
 Database tables screenshot
 
 Book Table
-![img.png](img.png)
+![img.png](photos/img.png)
 
 Author Table
-![img_1.png](img_1.png)
+![img_1.png](photos/img_1.png)
 
 Category Table
-![img_2.png](img_2.png)
+![img_2.png](photos/img_2.png)
 
 Book2Category Table
-![img_3.png](img_3.png)
+![img_3.png](photos/img_3.png)
 
 Book Borrowing Table
-![img_4.png](img_4.png)
+![img_4.png](photos/img_4.png)
 
 Publisher Table
-![img_5.png](img_5.png)
+![img_5.png](photos/img_5.png)
