@@ -9,7 +9,7 @@ public class BookBorrowing {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name =" book_borrowing_id")
+    @Column(name ="borrowing_id")
     private int id;
 
     @Column(name = "borrower_name")
@@ -21,8 +21,9 @@ public class BookBorrowing {
     @Column(name = "return_date")
     private LocalDate returnDate;
 
-    @OneToMany(mappedBy = "bookBorrowing",fetch = FetchType.LAZY,cascade = CascadeType.REMOVE)
-    private List<Book> bookList;
+    @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.MERGE)
+    @JoinColumn(name = "book_borrowing_id",referencedColumnName = "book_id")
+    private Book book;
 
     public BookBorrowing() {
     }
@@ -59,12 +60,12 @@ public class BookBorrowing {
         this.returnDate = returnDate;
     }
 
-    public List<Book> getBookList() {
-        return bookList;
+    public Book getBook() {
+        return book;
     }
 
-    public void setBookList(List<Book> bookList) {
-        this.bookList = bookList;
+    public void setBook(Book bookList) {
+        this.book = bookList;
     }
 
     @Override
@@ -74,7 +75,7 @@ public class BookBorrowing {
                 ", borrowerName='" + borrowerName + '\'' +
                 ", borrowingDate=" + borrowingDate +
                 ", returnDate=" + returnDate +
-                ", bookList=" + bookList +
+                ", book=" + book +
                 '}';
     }
 }

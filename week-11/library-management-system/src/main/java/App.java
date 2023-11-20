@@ -15,13 +15,6 @@ public class App {
 
         transaction.begin();
 
-        //Add BookBorrowing
-        BookBorrowing bookBorrowing=new BookBorrowing();
-        bookBorrowing.setBorrowerName("yakup");
-        bookBorrowing.setBorrowingDate(LocalDate.of(2023,11,10));
-        bookBorrowing.setReturnDate(LocalDate.of(2023,11,13));
-        entityManager.persist(bookBorrowing);
-
         //Add Publisher
         Publisher publisher=new Publisher();
         publisher.setName("Kitap kurdu");
@@ -42,9 +35,16 @@ public class App {
         book.setPublicationYear(2005);
         book.setStock(10);
         book.setAuthor(author);
-        book.setBookBorrowing(bookBorrowing);
         book.setPublisher(publisher);
         entityManager.persist(book);
+
+        //Add BookBorrowing
+        BookBorrowing bookBorrowing=new BookBorrowing();
+        bookBorrowing.setBorrowerName("yakup");
+        bookBorrowing.setBorrowingDate(LocalDate.of(2023,11,10));
+        bookBorrowing.setReturnDate(LocalDate.of(2023,11,13));
+        bookBorrowing.setBook(book);
+        entityManager.persist(bookBorrowing);
 
         //
         Category adventure=new Category("adventure");

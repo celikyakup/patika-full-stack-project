@@ -25,9 +25,8 @@ public class Book {
     @JoinColumn(name = "book_publisher_id",referencedColumnName = "publisher_id")
     private Publisher publisher;
 
-    @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.MERGE)
-    @JoinColumn(name="book_book_borrowing_id",referencedColumnName = "book_borrowing_id")
-    private BookBorrowing bookBorrowing;
+    @OneToMany(mappedBy = "book",fetch = FetchType.LAZY,cascade = CascadeType.REMOVE)
+    private List<BookBorrowing> bookBorrowing;
 
     @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
     @JoinTable(name = "book2category",
@@ -44,11 +43,11 @@ public class Book {
         this.categoryList = categoryList;
     }
 
-    public BookBorrowing getBookBorrowing() {
+    public List<BookBorrowing> getBookBorrowing() {
         return bookBorrowing;
     }
 
-    public void setBookBorrowing(BookBorrowing bookBorrowing) {
+    public void setBookBorrowing(List<BookBorrowing> bookBorrowing) {
         this.bookBorrowing = bookBorrowing;
     }
 
