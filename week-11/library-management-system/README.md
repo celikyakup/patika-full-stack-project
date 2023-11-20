@@ -33,4 +33,5 @@ Book Borrowing Table
 ![img_4.png](photos/img_4.png)
 
 Publisher Table
+
 ![img_5.png](photos/img_5.png)
