@@ -1,0 +1,31 @@
+/*******Açıklama Satırı*********/
+
+/* class-> .class-bilgisi {} */
+/* id ->#id-bilgisi {} */
+
+ul {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside;
+    
+}
+
+h3 {
+    color: rgb(121, 121, 14);   
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+.photo {
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+.menu-li {
+    display: inline;
+    
+}
