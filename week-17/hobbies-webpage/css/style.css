@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.head{
+    text-align: center;
+    list-style: none;
+}
+
+.head li h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    width: 550px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: ridge 1px black;
+}
+
+.nav-bar li {
+
+    list-style: none;
+    padding: 0 5px;
+    margin: 0 7%;
+    float:left;
+    
+}
+
+.nav-bar li a {
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+
+}
+
+article h2 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+article p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f64a6;
+
+}
+
+.footer-info {
+    border-top: ridge 1px black ;
+
+}
+
+.footer-info p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
