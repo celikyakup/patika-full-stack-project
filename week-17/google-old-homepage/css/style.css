@@ -1,0 +1,40 @@
+
+body {
+    margin: 8px;
+}
+
+.container img{
+    width: 351px;
+    height: 113px;
+    margin: auto;
+    display: block;
+}
+
+table {
+    margin: auto;
+}
+.search-bar {
+    width: 285px;
+    height: 15px;
+}
+
+span {
+    font-size: medium;
+}
+
+td{
+    
+    text-align: center;
+    font-size: small;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
