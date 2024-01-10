@@ -8,6 +8,6 @@ The letters written on the button can perform the same action when pressed from 
 
 
 Page View
-[Proje Adı](https://github-celikyakup.github.io/patika-full-stack-project/tree/main/week-19/drum-kit)
+[Proje Adı](https://celikyakup.github.io/patika-full-stack-project/week-19/drum-kit/)
 
 ![Alt text](image.png)
