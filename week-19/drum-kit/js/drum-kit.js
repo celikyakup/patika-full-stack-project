@@ -1,12 +1,4 @@
-let btnA=document.querySelector("#btn-a")
-let btnS=document.querySelector("#btn-s")
-let btnD=document.querySelector("#btn-d")
-let btnF=document.querySelector("#btn-f")
-let btnG=document.querySelector("#btn-g")
-let btnH=document.querySelector("#btn-h")
-let btnJ=document.querySelector("#btn-j")
-let btnK=document.querySelector("#btn-k")
-let btnL=document.querySelector("#btn-l")
+let body=document.querySelector("body")
 
 let boomAudio=new Audio("documents/boom.wav");
 let clapAudio=new Audio("documents/clap.wav");
@@ -18,34 +10,39 @@ let snareAudio=new Audio("documents/snare.wav");
 let tinkAudio=new Audio("documents/tink.wav");
 let tomAudio=new Audio("documents/tom.wav");
 
-btnA.addEventListener("click",()=>{
-    boomAudio.play()
-})
-btnS.addEventListener("click",()=>{
-    clapAudio.play()
-})
-btnD.addEventListener("click",()=>{
-    hihatAudio.play()
-})
-btnF.addEventListener("click",()=>{
-    kickAudio.play()
-})
-btnG.addEventListener("click",()=>{
-    openhatAudio.play()
-})
-btnH.addEventListener("click",()=>{
-    rideudio.play()
-})
-btnJ.addEventListener("click",()=>{
-    snareAudio.play()
-})
-btnK.addEventListener("click",()=>{
-    tinkAudio.play()
-})
-btnL.addEventListener("click",()=>{
-    tomAudio.play()
-})
 
+body.addEventListener("click",(e)=>{
+    
+    switch(e.target.innerHTML){
+        case "A":
+            boomAudio.play();
+            break;
+        case "S":
+            clapAudio.play();
+            break;
+        case "D":
+            hihatAudio.play();
+            break;
+        case "F":
+            kickAudio.play();
+            break;
+        case "G":
+            openhatAudio.play();
+            break;
+        case "H":
+            rideudio.play();
+            break;
+        case "J":
+            snareAudio.play();
+            break;
+        case "K":
+            tinkAudio.play();
+            break;
+        case "L":
+            tomAudio.play();
+            break;
+    }
+})
 
 window.onkeydown=function(e){
     if(e.keyCode===83){
