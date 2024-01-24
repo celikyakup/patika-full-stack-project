@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+    background-color: gray;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.jokes {
+    color: gainsboro;
+    font-size: 19px;
+}
+.btn-jokes {
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 10px;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
