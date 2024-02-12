@@ -1,0 +1,72 @@
+.container {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.textHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.textHeader img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.moneyHeader{
+    text-align: center;
+    background-color: #2BCA78;
+    font-size: 40px;
+    padding: 15px 0;
+    color: white;
+}
+
+.boxes{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+
+.box{
+    
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.box img {
+    margin: 15px auto;
+    width: 300px;
+    height: 200px;
+}
+
+
+.btn, .inp {
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+}
+
+.inp {
+    border: none;
+    padding: 0;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.actions button {
+    width: 80px;
+    height: 38px;
+}
+
+

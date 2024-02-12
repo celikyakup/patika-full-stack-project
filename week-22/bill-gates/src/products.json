@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Big Mac",
+      "price": 2,
+      "image": "https://neal.fun/spend/images/big-mac.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Flip Flops",
+      "price": 6,
+      "image": "https://neal.fun/spend/images/flip-flops.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Coca Cola Pack",
+      "price": 5,
+      "image": "https://neal.fun/spend/images/coca-cola-pack.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Movie Ticket",
+      "price": 12,
+      "image": "https://neal.fun/spend/images/movie-ticket.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Yacht",
+      "price": 7500000,
+      "image": "https://neal.fun/spend/images/yacht.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Formula 1 Car",
+      "price": 15000000,
+      "image": "https://neal.fun/spend/images/formula-1-car.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Apache Helicopter",
+      "price": 31000000,
+      "image": "https://neal.fun/spend/images/apache-helicopter.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Mansion",
+      "price": 45000000,
+      "image": "https://neal.fun/spend/images/mansion.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Make a Movie",
+      "price": 100000000,
+      "image": "https://neal.fun/spend/images/make-a-movie.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Mona Lisa",
+      "price": 780000000,
+      "image": "https://neal.fun/spend/images/mona-lisa.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Cruise Ship",
+      "price": 780000000,
+      "image": "https://neal.fun/spend/images/cruise-ship.jpg"
+    },
+    {
+      "id": 12,
+      "title": "NBA Team",
+      "price": 2120000000,
+      "image": "https://neal.fun/spend/images/nba-team.jpg"
+    }
+  ]
