@@ -1,0 +1,114 @@
+.trainers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .img-container,.img-container-2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .img-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #f39c12;
+    border-radius: 10px;
+  }
+  
+  .img-container::before,
+  .img-container::after {
+    content: "";
+    position: absolute;
+    height: 8px; 
+    width: 100px; 
+    background-color: #2a4374;
+    left: 0;
+    right: 0;
+    transform: translateX(100%);
+  }
+
+  .img-container::before {
+    top: -8px;
+  }
+  
+  .img-container::after {
+    bottom: 0px;
+  
+  }
+  
+  .img-container-2::before,
+  .img-container-2::after {
+    content: "";
+    position: absolute;
+    height: 100px; 
+    width: 8px; 
+    background-color: #2a4374;
+    top: 0;
+    bottom: 0;
+    transform: translateY(calc(100% + 30px));
+  }
+  
+  .img-container-2::before {
+    left: -3px;
+  }
+  
+  .img-container-2::after {
+    right: -5px;
+  }
+  
+  .trainer-info {
+      display: none;
+      position: absolute;
+      width: 280px;
+      height: 90px;
+      left: calc(0% + 13px);
+      top: calc(50% + 80px);
+      background-color: #2a4374;
+      color: white;
+      text-align: center;
+      
+      clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  }
+  
+  
+  .trainer-info>.trainer-text {
+      padding-top: 15px; ;
+  }
+  
+  .img-container-2:hover::before {
+    content: "";
+    position: absolute;
+    height: 170px; 
+    width: 8px; 
+    background-color: #2a4374;
+    top: 0;
+    bottom: 0;
+    transform: translateY(calc(100% - 40px));
+  }
+  
+  .img-container-2:hover::after {
+    content: "";
+    position: absolute;
+    height: 170px; 
+    width: 8px; 
+    background-color: #2a4374;
+    top: 0;
+    bottom: 0;
+    transform: translateY(calc(100% - 40px));
+  }
+  
+  .img-container:hover::after {
+    content: "";
+    position: absolute;
+    height: 8px; 
+    width: 220px; 
+    background-color: #2a4374;
+    left: 0;
+    right: 0;
+    transform: translateX(calc(50% - 30px));
+  }
+
+  .img-container:hover .trainer-info {
+    display: inline;
+}

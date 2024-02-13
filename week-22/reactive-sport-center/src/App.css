@@ -1,0 +1,132 @@
+.header {
+    background-image: url("./necessary-documents/photos/hero-man.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+.navbar>.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-expand .navbar-nav .nav-link:last-child{
+    
+    background-color: #f39c12;
+    border-radius: 3px;
+}
+
+.navbar-expand .navbar-nav .nav-link{
+    color: white;
+}
+
+
+.section-first {
+    background-color: #f1f8ff;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.con-item{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.title {
+    color: #355592;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section-second {
+    background: rgb(246,246,246);
+  background: linear-gradient(225deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-bottom: 30px;
+}
+
+.line {
+    margin: 20px auto 30px;
+  width: 75px;
+  height: 7px;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+}
+
+.margin-lr {
+    margin: 0 15%;
+    text-align: center;
+  
+  }
+
+.buttn{
+  position: relative;
+  color: white;
+  background-color: #355592;
+  padding: 10px 3%;
+  margin-bottom: 5%;
+  border: none;
+  border-radius: 3px;
+}
+
+.buttn-focus {
+    background-color: #f39c12;
+  }
+
+.buttn-focus::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: calc(50% - 10px);
+    top: 100%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 7px solid #f39c12;
+  }
+
+  .btn-text {
+    display: flex;
+    
+    gap: 10%;
+    margin-bottom: 5%;
+  }
+
+  .info-text {
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  div.image {
+    min-width: 500px;
+    width: 500px;
+    margin-top: 5%;
+  }
+
+  .image > img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .third {
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }

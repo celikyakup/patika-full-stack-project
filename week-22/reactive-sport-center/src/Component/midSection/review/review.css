@@ -1,0 +1,43 @@
+.review-con{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 50px;
+}
+.review-top {
+    display: flex;
+    gap: 10px;
+}
+
+.review-top>.review-img>img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+div.comment {
+    background-color: #2a4374;
+    position: relative;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+div.comment::before{
+   content: "";
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   background: linear-gradient(to top right, transparent 50%, transparent 50%, #8096BE 50%, #8096BE 100%);
+   top: calc(100% );
+   left: 0;
+   
+}
+
+div.comment::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to top left, transparent 50%, transparent 50%, #8096BE 50%, #8096BE 100%);
+    left: calc(100% - 50px);
+    top: calc(100% );
+    
+ }
