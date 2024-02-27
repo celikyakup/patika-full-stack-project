@@ -1,0 +1,38 @@
+.starships-con{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px; 
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-content: center;
+    
+}
+
+.starships-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #111423;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.starships-item img {
+    width: 300px;
+    height: 150px;
+}
+h1 {
+    text-align: center;
+}
+
+.abc{
+    color: white;
+    text-decoration: none;
+}
+
+.loading{
+    text-align: center;
+}
